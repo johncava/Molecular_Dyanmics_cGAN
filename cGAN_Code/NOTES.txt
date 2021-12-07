@@ -1,0 +1,6 @@
+# NOTES
+
+(1) experiment.sh RUNS gan.py GIVEN conda environment LISTED in conda-list.txt IN A COMPUTER CLUSTER WITH K80
+(2) FROM conda-list.txt SOME MODIFICATIONS WERE MADE FOR moleculekit AND torchMD
+    (a) readers.py FROM V_calculations/Test-8-torsion_angle_calc SHOULD REPLACE readers.py FROM moleculekit
+    (b) forces.py AND systems.py FROM Torch_Fix SHOULD REPLACE forces.py AND systems.py FROM torchmd 
